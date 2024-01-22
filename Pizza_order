@@ -1,0 +1,38 @@
+# Aplikace na objednání pizzy
+
+print("Vítejte v aplikaci na objednání pizzy")
+
+size = input("Jakou chcete velikost pizzy? S, M, nebo L\n")
+
+ham = input("Dáte si šunku navíc za 20 Kč S a za 30 Kč M, L? ano nebo ne\n")
+
+cheese = input("Dáte si extra sýr za 15 Kč? ano nebo ne\n")
+
+bill = 0
+
+
+if size == "S":
+    bill += 100
+    if ham == "ano":
+        bill += 20
+        if cheese == "ano":
+            bill += 15    
+
+
+elif size == "M" :
+    bill += 150
+    if ham == "ano":
+        bill += 30
+        if cheese == "ano":
+            bill += 15
+
+
+
+elif size == "L" :
+    bill += 200
+    if ham == "ano":
+        bill += 30
+        if cheese == "ano":
+            bill += 15
+
+print(f"Částka k zaplacení : {bill} Kč")
