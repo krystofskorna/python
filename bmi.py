@@ -1,13 +1,17 @@
 # Body Mass Index
+# Popis fungování programu (co a jak dělá)
+# Ukázka použití: python bmi.py
 
+# Uživatelské vstupy
 height = float(input("Zadejte svou výšku v metrech:\n"))
-
 weight = float(input("Zadejte svou váhu v kg:\n"))
 
+# Výpočet BMI
 bmi = weight / height **2 
 
 # print(round(bmi , 1))
 
+# Zhodnocení BMI
 if bmi < 18.5 :
     print(f"Váš BMI má hodnotu {round(bmi , 1)}, máte podváhu")
 
@@ -22,3 +26,6 @@ elif bmi < 34.9 :
 
 else :
     print(f"Váš BMI má hodnotu {round(bmi , 1)}, máte extrémní obezitu")
+
+# Výstpu
+# FIXME
