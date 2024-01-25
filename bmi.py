@@ -1,7 +1,7 @@
 # Body Mass Index
 # Popis fungování programu (co a jak dělá)
-# Ukázka použití: python bmi.py
-
+    #Vyjede tam věta "Zadejte svou výšku v metrech:" a vy zadáte výšku v metrech např. 1.8
+    #Potom tam zadáte svoji váhu a výjde vám jak jste na tom.
 # Uživatelské vstupy
 height = float(input("Zadejte svou výšku v metrech:\n"))
 weight = float(input("Zadejte svou váhu v kg:\n"))
@@ -9,23 +9,28 @@ weight = float(input("Zadejte svou váhu v kg:\n"))
 # Výpočet BMI
 bmi = weight / height **2 
 
-# print(round(bmi , 1))
-
 # Zhodnocení BMI
-if bmi < 18.5 :
-    print(f"Váš BMI má hodnotu {round(bmi , 1)}, máte podváhu")
+if bmi < 16.5 :
+    x = " těžkou podvýživu"
 
-elif bmi < 24.9 :
-    print(f"Váš BMI má hodnotu {round(bmi , 1)}, jste v normálu")
+elif bmi < 18.5 :
+    x = " podváhu"
+
+elif bmi < 25 :
+    x = " ideální váhu"
 
 elif bmi < 29.9 :
-    print(f"Váš BMI má hodnotu {round(bmi , 1)}, máte nadváhu")
+    x = " nadváhu"
 
 elif bmi < 34.9 :
-    print(f"Váš BMI má hodnotu {round(bmi , 1)}, jste obézní")
+    x = " obezitu 1. stupně"
+
+elif bmi < 40 :
+    x = " obezitu 2. stupně"
 
 else :
-    print(f"Váš BMI má hodnotu {round(bmi , 1)}, máte extrémní obezitu")
+    x = " obezitu 3. stupně"
 
-# Výstpu
-# FIXME
+print("Máte" +  x )
+
+# Ukázka použití: python bmi.py
