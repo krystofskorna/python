@@ -14,7 +14,7 @@ Seznam programů:
 * `leap years.py` - Výpočet přestupných roků
 * `pizza_order.py` - Objednávka pizzy
 
-## Výpočet Body Mass Indexu  
+## Výpočet Body Mass Indexu [(bmi.py)](https://github.com/krystofskorna/python/blob/main/bmi.py/)
 
 BMI je je číslo používané jako indikátor podváhy, normální tělesné hmotnosti, nadváhy a obezity, umožňující statistické porovnávání tělesné hmotnosti lidí s různou výškou ([Wikipedie](https://cs.wikipedia.org/wiki/Index_t%C4%9Blesn%C3%A9_hmotnosti)). Index BMI se počítá jako podíl hmotnosti člověka [kg] druhou mocninou jeho výšky [m]. Podle BMI se lidé dělí na kategorie:
 
@@ -30,6 +30,14 @@ Program se spouší z příkazové řádky a pracuje textově. Po zadání hmotn
 
 Spouštění v terminálu ve Windows: `python bmi.py`  
 
-## Hod mincí 
+## Hod mincí [(coin.py)](https://github.com/krystofskorna/python/blob/main/coin.py/)
    + Modulo random je velmi důležité
    + 50/50
+
+## Přestupné roky [(leap_years.py)](https://github.com/krystofskorna/python/blob/main/leap_years.py/)
+
+## Objednávka Pizzy [(pizza_order.py)](https://github.com/krystofskorna/python/blob/main/pizza_order.py/)
+
+## Kámen, nůžky, papír [(rock_paper_scissors.py)](https://github.com/krystofskorna/python/blob/main/rock_paper_scissors.py/)
+
+## Horská dráha [(rollercoaster.py)](https://github.com/krystofskorna/python/blob/main/rollercoaster.py/)
