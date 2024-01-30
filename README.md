@@ -31,8 +31,8 @@ Program se spouší z příkazové řádky a pracuje textově. Po zadání hmotn
 Spouštění v terminálu ve Windows: `python bmi.py`  
 
 ## Hod mincí [(coin.py)](https://github.com/krystofskorna/python/blob/main/coin.py/)
-   + Modulo random je velmi důležité
-   + 50/50
+   - Hod mincí funguje na principu 50/50, je to na náhodě co vám padne, jestli orel nebo pana
+   - Je dobrý při nerozhodném rozhodování je to spíše pro srandu, žádné důležité informace ti to nedá
 
 ## Přestupné roky [(leap_years.py)](https://github.com/krystofskorna/python/blob/main/leap_years.py/)
 
