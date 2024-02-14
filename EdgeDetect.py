@@ -16,8 +16,8 @@ while True:
         edges = cv2.Canny(gray, 80, 160)
         # Zobrazeni vysledku
         cv2.imshow('Demo - Edge Detection', edges)
-        cv2.imshow('Demo - Grey senzor', gray)
-        cv2.imshow('Demo - Colorful senzor', img)
+        #cv2.imshow('Demo - Grey senzor', gray)
+        #cv2.imshow('Demo - Colorful senzor', img)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
