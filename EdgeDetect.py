@@ -1,6 +1,6 @@
 # Detekce okrajů
-    # Program zvýraazní okraje ktere jdou vidět na kameře zařízení.
-    # Doporučuji rosvítit světlo pro kvalitnější zobrazení okrajů.
+    # Program zvýrazní okraje které jdou vidět na kameře zařízení.
+    # Doporučuji rozsvítit světlo pro kvalitnější zobrazení okrajů.
     # Program jsem sepsal, protože jsem chtěl zkusit využití kamery
     # a přišlo mi to zajímavé
 
