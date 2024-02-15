@@ -1,3 +1,9 @@
+# Detektor ruky a prstů
+  # Program jako první najde obličej a potom hledá prsty.
+  # Program dokáže říct jaké prsty jsou zvednuté
+  # Program jsem udělal, protože mě to baví používat 
+  # a ukazovat to jiným a je to velmi zábavné.
+
 import cv2
 from cvzone.HandTrackingModule import HandDetector
 from cvzone.FaceMeshModule import FaceMeshDetector
